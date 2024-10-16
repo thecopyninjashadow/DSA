@@ -10,5 +10,6 @@ This repository contains the assignments for the Data Structures and Algorithms 
 
 ## Contact
 For any questions or feedback, please reach out to me at:
-
-[![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://linkedin.com/in/noamanayub)
+<a href="https://linkedin.com/in/noamanayub">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20" height="20"/>
+</a>
