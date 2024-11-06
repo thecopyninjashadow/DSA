@@ -1,14 +1,17 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int *fun();
-int main(){
+
+int main() {
     int *p;
-    int *fun();
     p = fun();
-    printf("%d\n",*p);
-    printf("%u", p);
+    printf("%d\n", *p);                  // Prints the value of x (10)
+    printf("%p\n", (void *)p);           // Prints the address stored in p
+    printf("%p\n", (void *)&p);          // Prints the address of p itself
+    return 0;
 }
 
-int *fun(){
+int *fun() {
     static int x = 10;
-    return (&x);
+    return &x;
 }
